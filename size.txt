@@ -1,0 +1,36 @@
+
+===============
+
+File  .text   Size            Crate Name
+2.3%  52.1% 2.5KiB psoc6_helloworld psoc6_helloworld::__cortex_m_rt_main
+0.6%  13.0%   650B              std core::fmt::num::imp::<impl core::fmt::Display for u32>::fmt
+0.4%   7.9%   396B              std core::fmt::write
+0.3%   6.6%   332B        [Unknown] memcpy
+0.2%   3.7%   186B              std <&mut W as core::fmt::Write>::write_char
+0.1%   3.1%   156B        [Unknown] memset
+0.1%   2.8%   140B        [Unknown] __aeabi_memset4
+0.1%   2.7%   134B        [Unknown] __aeabi_memcpy4
+0.1%   2.5%   124B      cortex_m_rt Reset
+0.1%   1.5%    76B              std <&mut W as core::fmt::Write>::write_str
+0.0%   1.0%    50B              std core::fmt::Formatter::pad_integral::write_prefix
+0.0%   0.9%    44B              std <&mut W as core::fmt::Write>::write_fmt
+0.0%   0.4%    20B      cortex_m_rt HardFaultTrampoline
+0.0%   0.2%    10B        [Unknown] __aeabi_memset
+0.0%   0.2%    10B              std core::result::unwrap_failed
+0.0%   0.2%    10B              std core::panicking::panic
+0.0%   0.2%    10B              std core::panicking::panic_fmt
+0.0%   0.2%    10B        [Unknown] main
+0.0%   0.1%     6B        [Unknown] __aeabi_memclr4
+0.0%   0.1%     6B         cortex_m __primask_r
+0.0%   0.1%     4B        [Unknown] __aeabi_memcpy
+0.0%   0.1%     4B         cortex_m __cpsie
+0.0%   0.1%     4B         cortex_m __cpsid
+0.0%   0.1%     4B              std core::ops::function::FnOnce::call_once
+0.0%   0.0%     2B      cortex_m_rt HardFault_
+0.0%   0.0%     2B       panic_halt rust_begin_unwind
+0.0%   0.0%     2B              std core::ptr::drop_in_place<&mut cortex_m_semihosting::hio::HStdout>
+0.0%   0.0%     2B      cortex_m_rt DefaultPreInit
+0.0%   0.0%     2B      cortex_m_rt DefaultHandler_
+0.0%   0.0%     0B                  And 0 smaller methods. Use -n N to show more.
+4.5% 100.0% 4.9KiB                  .text section size, the file size is 108.9KiB
+
